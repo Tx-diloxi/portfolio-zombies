@@ -43,3 +43,6 @@ Tout le texte est dans [`src/content/portfolio.json`](src/content/portfolio.json
 `npm run build` produit `dist/` (chemins relatifs, hébergeable n'importe où).
 Le workflow `.github/workflows/deploy.yml` publie sur GitHub Pages à chaque push sur `main`
 (activer *Settings → Pages → Source : GitHub Actions*).
+
+
+https://tx-diloxi.github.io/portfolio-zombies/
