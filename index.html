@@ -1,0 +1,87 @@
+<!doctype html>
+<html lang="fr">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Portfolio — Zombies</title>
+    <meta name="description" content="Portfolio BUT Informatique 3e année (IUT de Lannion, alternance) sous forme de jeu de survie zombie en 3D." />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link href="https://fonts.googleapis.com/css2?family=Creepster&family=Special+Elite&family=Oswald:wght@400;600&display=swap" rel="stylesheet" />
+  </head>
+  <body class="game">
+    <canvas id="scene"></canvas>
+
+    <!-- HUD -->
+    <div id="hud" hidden>
+      <div id="crosshair"></div>
+      <div id="hitmarker"></div>
+      <div id="damage"></div>
+      <div id="round"></div>
+      <div id="points"><span id="points-value">0</span><div id="points-pop"></div></div>
+      <div id="weapon"><div id="weapon-name"></div><div id="ammo"></div></div>
+      <div id="perks"></div>
+      <div id="prompt"></div>
+      <div id="toast"></div>
+    </div>
+
+    <!-- Écran titre -->
+    <section id="title-screen" class="screen">
+      <div class="screen-inner">
+        <p class="kicker">Portfolio · BUT Informatique · 3e année</p>
+        <h1 class="blood">Portfolio<br />Zombies</h1>
+        <p class="subtitle" id="title-name"></p>
+        <div class="buttons">
+          <button id="btn-play" class="btn primary">Jouer</button>
+          <button id="btn-explore" class="btn">Explorer (portes ouvertes)</button>
+          <a href="lecture.html" class="btn">Mode lecture</a>
+        </div>
+        <div class="controls">
+          <p><kbd>Z Q S D</kbd> / <kbd>W A S D</kbd> se déplacer · <kbd>Maj</kbd> sprint · <kbd>Clic</kbd> tirer · <kbd>R</kbd> recharger</p>
+          <p><kbd>F</kbd> interagir (portes, traces, armes) · <kbd>V</kbd> couteau · <kbd>1</kbd>/<kbd>2</kbd> changer d'arme · <kbd>Échap</kbd> pause</p>
+          <p class="hint">Chaque salle est une compétence du BUT. Tuez des zombies pour gagner des points et ouvrir les portes.</p>
+        </div>
+        <p class="mobile-warning">Le jeu se joue au clavier et à la souris. Sur mobile, utilisez le <a href="lecture.html">mode lecture</a>.</p>
+      </div>
+    </section>
+
+    <!-- Pause -->
+    <section id="pause-screen" class="screen" hidden>
+      <div class="screen-inner">
+        <h1 class="blood small">Pause</h1>
+        <div class="buttons">
+          <button id="btn-resume" class="btn primary">Reprendre</button>
+          <button id="btn-open-all" class="btn">Ouvrir toutes les portes</button>
+          <button id="btn-peace" class="btn">Zombies : activés</button>
+          <a href="lecture.html" class="btn">Mode lecture</a>
+          <button id="btn-restart" class="btn">Recommencer</button>
+        </div>
+        <label class="slider">Sensibilité souris <input id="sensitivity" type="range" min="0.2" max="2" step="0.1" value="1" /></label>
+      </div>
+    </section>
+
+    <!-- Game over -->
+    <section id="dead-screen" class="screen" hidden>
+      <div class="screen-inner">
+        <h1 class="blood">Game Over</h1>
+        <p class="subtitle" id="dead-stats"></p>
+        <div class="buttons">
+          <button id="btn-retry" class="btn primary">Rejouer</button>
+          <a href="lecture.html" class="btn">Mode lecture</a>
+        </div>
+      </div>
+    </section>
+
+    <!-- Panneau de contenu (traces, compétences…) -->
+    <section id="panel" class="screen" hidden>
+      <article class="panel-card">
+        <div id="panel-content" class="content"></div>
+        <button id="btn-panel-close" class="btn primary">Fermer <kbd>F</kbd></button>
+      </article>
+    </section>
+
+    <div id="loading" class="screen"><p>Chargement…</p></div>
+
+    <script type="module" src="/src/main.js"></script>
+  </body>
+</html>

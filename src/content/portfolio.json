@@ -1,0 +1,167 @@
+{
+  "profil": {
+    "nom": "[Prénom NOM]",
+    "formation": "BUT Informatique — 3e année",
+    "etablissement": "IUT de Lannion",
+    "parcours": "[Parcours A — Réalisation d'applications : conception, développement, validation]",
+    "rythme": "Alternance",
+    "presentation": "[Quelques phrases pour te présenter : qui tu es, ce qui t'anime en informatique, ce que tu cherches après le BUT.]",
+    "photo": ""
+  },
+  "alternance": {
+    "entreprise": "[Nom de l'entreprise]",
+    "poste": "[Intitulé du poste, ex. Développeur web / full-stack]",
+    "periode": "[Septembre 2024 — Août 2027]",
+    "rythme": "[ex. 2 semaines entreprise / 2 semaines IUT]",
+    "description": "[Présentation de l'entreprise : activité, taille, équipe dans laquelle tu travailles.]",
+    "missions": [
+      "[Mission 1 : description courte]",
+      "[Mission 2 : description courte]",
+      "[Mission 3 : description courte]"
+    ],
+    "technos": ["[Techno 1]", "[Techno 2]", "[Techno 3]"]
+  },
+  "competences": [
+    {
+      "id": 1,
+      "nom": "Réaliser",
+      "intitule": "Adapter des applications sur un ensemble de supports (embarqué, web, mobile, IoT…)",
+      "evaluee": true,
+      "niveau": "[Niveau 3 — Acquis / En cours d'acquisition]",
+      "description": "[Ce que cette compétence représente pour toi et comment tu l'as développée cette année.]",
+      "traces": [
+        {
+          "titre": "[Trace 1 — ex. Fonctionnalité développée en entreprise]",
+          "contexte": "[Contexte : entreprise / SAÉ / projet perso, durée, équipe.]",
+          "apprentissagesCritiques": ["[AC31.01 — à compléter]", "[AC31.02 — à compléter]"],
+          "argumentaire": "[En quoi cette trace prouve-t-elle les apprentissages critiques ? Ce que tu as fait, les difficultés, ce que tu as appris.]",
+          "liens": [{ "label": "Dépôt GitHub", "url": "https://github.com/" }]
+        },
+        {
+          "titre": "[Trace 2]",
+          "contexte": "[Contexte]",
+          "apprentissagesCritiques": ["[AC31.03 — à compléter]"],
+          "argumentaire": "[Argumentaire]",
+          "liens": []
+        }
+      ]
+    },
+    {
+      "id": 2,
+      "nom": "Optimiser",
+      "intitule": "Analyser et optimiser des applications",
+      "evaluee": true,
+      "niveau": "[Niveau 3]",
+      "description": "[Description personnelle de la compétence.]",
+      "traces": [
+        {
+          "titre": "[Trace 1 — ex. Optimisation des performances d'une requête / d'un algorithme]",
+          "contexte": "[Contexte]",
+          "apprentissagesCritiques": ["[AC32.01 — à compléter]"],
+          "argumentaire": "[Argumentaire]",
+          "liens": []
+        },
+        {
+          "titre": "[Trace 2]",
+          "contexte": "[Contexte]",
+          "apprentissagesCritiques": ["[AC32.02 — à compléter]"],
+          "argumentaire": "[Argumentaire]",
+          "liens": []
+        }
+      ]
+    },
+    {
+      "id": 3,
+      "nom": "Administrer",
+      "intitule": "Faire évoluer et maintenir un système informatique communicant en conditions opérationnelles",
+      "evaluee": false,
+      "niveau": "[Niveau atteint]",
+      "description": "[Description personnelle de la compétence.]",
+      "traces": [
+        {
+          "titre": "[Trace 1 — ex. Mise en place d'un pipeline CI/CD / conteneurisation]",
+          "contexte": "[Contexte]",
+          "apprentissagesCritiques": ["[AC — à compléter]"],
+          "argumentaire": "[Argumentaire]",
+          "liens": []
+        }
+      ]
+    },
+    {
+      "id": 4,
+      "nom": "Gérer",
+      "intitule": "Optimiser une base de données, interagir avec une application et mettre en œuvre la sécurité",
+      "evaluee": false,
+      "niveau": "[Niveau atteint]",
+      "description": "[Description personnelle de la compétence.]",
+      "traces": [
+        {
+          "titre": "[Trace 1 — ex. Modélisation et sécurisation d'une base de données]",
+          "contexte": "[Contexte]",
+          "apprentissagesCritiques": ["[AC — à compléter]"],
+          "argumentaire": "[Argumentaire]",
+          "liens": []
+        }
+      ]
+    },
+    {
+      "id": 5,
+      "nom": "Conduire",
+      "intitule": "Participer à la conception et à la mise en œuvre d'un projet système d'information",
+      "evaluee": true,
+      "niveau": "[Niveau 3]",
+      "description": "[Description personnelle de la compétence.]",
+      "traces": [
+        {
+          "titre": "[Trace 1 — ex. Participation au cadrage d'un projet en entreprise]",
+          "contexte": "[Contexte]",
+          "apprentissagesCritiques": ["[AC35.01 — à compléter]"],
+          "argumentaire": "[Argumentaire]",
+          "liens": []
+        },
+        {
+          "titre": "[Trace 2]",
+          "contexte": "[Contexte]",
+          "apprentissagesCritiques": ["[AC35.02 — à compléter]"],
+          "argumentaire": "[Argumentaire]",
+          "liens": []
+        }
+      ]
+    },
+    {
+      "id": 6,
+      "nom": "Collaborer",
+      "intitule": "Manager une équipe informatique",
+      "evaluee": true,
+      "niveau": "[Niveau 3]",
+      "description": "[Description personnelle de la compétence.]",
+      "traces": [
+        {
+          "titre": "[Trace 1 — ex. Méthode agile / animation de rituels en équipe]",
+          "contexte": "[Contexte]",
+          "apprentissagesCritiques": ["[AC36.01 — à compléter]"],
+          "argumentaire": "[Argumentaire]",
+          "liens": []
+        },
+        {
+          "titre": "[Trace 2]",
+          "contexte": "[Contexte]",
+          "apprentissagesCritiques": ["[AC36.02 — à compléter]"],
+          "argumentaire": "[Argumentaire]",
+          "liens": []
+        }
+      ]
+    }
+  ],
+  "bilan": {
+    "titre": "Bilan & projet professionnel",
+    "texte": "[Bilan de ton parcours en BUT et de ton alternance : ce que tu retiens, tes points forts, tes axes de progression.]",
+    "projetPro": "[Ton projet après le BUT : poursuite d'études, embauche, domaine visé…]"
+  },
+  "contact": {
+    "email": "[ton.email@exemple.fr]",
+    "linkedin": "https://www.linkedin.com/",
+    "github": "https://github.com/",
+    "cv": ""
+  }
+}
